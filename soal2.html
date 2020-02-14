@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Soal 2</title>
+    <script defer src="./soal2.js"></script>
+    <style>
+        table, tr, td, th{
+            border: 1px solid rgb(172, 144, 144);
+            border-collapse: collapse;
+        }
+        td, th{
+            padding: 20px;
+        }
+        #payment, #dataAdd {
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Madding</h1>
+    <p>Username :&nbsp;<input type="text" value="" id="userName" oninput=""></p>
+    <p>Password :&nbsp;<input type="password" value="" id="password" oninput=""></p>
+    <p> <input type="button" value="Login" onclick="login()"> </p>
+    <table>
+        <thead>
+            <tr>
+                <th> No </th>
+                <th> Kegiatan </th>
+                <th> Hari </th>
+                <th> Poster </th>
+                <th> Act </th>
+            </tr>
+        </thead>
+        <tbody id="hasilTabel">
+
+        </tbody>
+    </table>
+    <p id="salahPass"></p>
+    <p id="salahPass1"></p>
+    </center>
+</body>
+</html>
